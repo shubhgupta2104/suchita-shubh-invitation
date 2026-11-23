@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <linearGradient id="leaf" x2="1" y2="1"><stop stop-color="#b2b184"/><stop offset=".45" stop-color="#7c915d"/><stop offset="1" stop-color="#49684a"/></linearGradient>
+    <radialGradient id="rose"><stop stop-color="#a34d62"/><stop offset=".5" stop-color="#d78c99"/><stop offset="1" stop-color="#f0c2b6"/></radialGradient>
+    <radialGradient id="marigold"><stop stop-color="#b67a29"/><stop offset=".55" stop-color="#e6ac48"/><stop offset="1" stop-color="#f4ce79"/></radialGradient>
+    <g id="leaflet">
+      <path d="M0 0C-17-15-16-37 0-51C19-35 22-12 0 0Z" fill="url(#leaf)" stroke="#66805a" stroke-width="1"/>
+      <path d="M0-3V-44M0-13-10-24M0-23 11-35M0-33-6-40" fill="none" stroke="#d4c591" stroke-width="1"/>
+    </g>
+    <g id="sprig">
+      <path d="M0 0C48-35 106-49 174-21" fill="none" stroke="#7d8b5a" stroke-width="2"/>
+      <use href="#leaflet" transform="translate(22 -13) rotate(-52) scale(.8)"/>
+      <use href="#leaflet" transform="translate(48 -27) rotate(-22)"/>
+      <use href="#leaflet" transform="translate(73 -34) rotate(34) scale(.85)"/>
+      <use href="#leaflet" transform="translate(93 -36) rotate(137) scale(.72)"/>
+      <use href="#leaflet" transform="translate(118 -35) rotate(22) scale(.9)"/>
+      <use href="#leaflet" transform="translate(139 -30) rotate(140) scale(.8)"/>
+      <use href="#leaflet" transform="translate(162 -24) rotate(58) scale(.7)"/>
+      <path d="M145-27Q175-58 191-39" fill="none" stroke="#b09a62" stroke-width="1.1"/>
+      <circle cx="191" cy="-39" r="3" fill="#d2af66"/>
+    </g>
+    <g id="rosehead">
+      <path d="M0-43C18-58 41-47 41-28C62-23 61 2 45 12C50 35 26 52 10 42C-6 59-33 48-36 29C-60 25-62-1-45-14C-52-37-26-57-10-43Z" fill="url(#rose)" stroke="#b7727c" stroke-width="1.2"/>
+      <path d="M-39-15C-28-39 9-44 27-27C3-31-13-16-14 3C-28 1-37-4-39-15Z" fill="#ebbbb6"/>
+      <path d="M31-24C49-4 32 28 11 31C24 10 10-5-7-8C5-22 19-28 31-24Z" fill="#de9ca7"/>
+      <path d="M-30 12C-18 37 15 43 31 22C13 30-7 12-6-4C-19-7-31 1-30 12Z" fill="#efc7b9"/>
+      <path d="M-20-10C-4-29 25-20 23 0C22 23-8 29-19 10C-31-5-10-22 4-13C22-4 11 17-2 12C-15 7-14-10-3-12C8-15 15-3 8 4C2 12-8 4-5-2" fill="none" stroke="#a9576a" stroke-width="2"/>
+      <path d="M-31-23Q-10-40 12-34M-29 21Q-13 37 4 35M27-7Q34 7 20 20" fill="none" stroke="#f8ded0" stroke-width="2"/>
+    </g>
+    <ellipse id="petal" cy="-17" rx="10" ry="19" fill="url(#marigold)" stroke="#c28c39" stroke-width=".7"/>
+    <g id="goldflower">
+      <use href="#petal"/><use href="#petal" transform="rotate(45)"/><use href="#petal" transform="rotate(90)"/><use href="#petal" transform="rotate(135)"/>
+      <use href="#petal" transform="rotate(180)"/><use href="#petal" transform="rotate(225)"/><use href="#petal" transform="rotate(270)"/><use href="#petal" transform="rotate(315)"/>
+      <path d="M0-18 6-14 13-14 14-7 20-2 15 5 15 12 7 14 2 20-5 15-12 15-15 7-20 1-15-6-14-13-6-15Z" fill="#ecc16a"/>
+      <path d="M-11-3Q0-17 11-4Q16 10 1 13Q-14 9-10-3M-5-2Q4-8 7 2Q5 10-3 6Z" fill="none" stroke="#b88331" stroke-width="1.5"/>
+      <circle r="4" fill="#b78535"/>
+    </g>
+    <g id="jasmine">
+      <g fill="#fff5df" stroke="#c9bb8d" stroke-width=".8">
+        <ellipse cy="-10" rx="6" ry="12"/><ellipse cy="-10" rx="6" ry="12" transform="rotate(72)"/>
+        <ellipse cy="-10" rx="6" ry="12" transform="rotate(144)"/><ellipse cy="-10" rx="6" ry="12" transform="rotate(216)"/>
+        <ellipse cy="-10" rx="6" ry="12" transform="rotate(288)"/>
+      </g>
+      <circle r="4" fill="#d9b363"/>
+    </g>
+    <g id="cascade">
+      <path d="M0 0C-12 37 15 79 1 136" fill="none" stroke="#8c9a67" stroke-width="1.2"/>
+      <g fill="#fbf1d8" stroke="#c7b781" stroke-width=".7">
+        <ellipse cx="-5" cy="21" rx="7" ry="11" transform="rotate(-27 -5 21)"/><ellipse cx="7" cy="29" rx="6" ry="11" transform="rotate(26 7 29)"/>
+        <ellipse cx="-5" cy="49" rx="6" ry="10" transform="rotate(-25 -5 49)"/><ellipse cx="8" cy="58" rx="6" ry="10" transform="rotate(27 8 58)"/>
+        <ellipse cx="-1" cy="77" rx="5" ry="9" transform="rotate(-20 -1 77)"/><ellipse cx="9" cy="87" rx="5" ry="9" transform="rotate(25 9 87)"/>
+        <ellipse cx="1" cy="106" rx="4" ry="8"/><ellipse cx="3" cy="126" rx="3" ry="7"/>
+      </g>
+      <circle cx="1" cy="140" r="3" fill="#caa764"/>
+    </g>
+  </defs>
+  <g fill="none" stroke="#b89a5c">
+    <path d="M35 119C245 108 369 217 600 204C815 217 979 109 1166 119" stroke-width="2"/>
+    <path d="M105 145Q238 292 378 171Q589 328 794 171Q955 290 1100 142" stroke-width="1.2"/>
+    <path d="M109 153Q240 305 378 181Q589 341 795 182Q955 304 1098 151" stroke="#e4c88f" stroke-width="4" stroke-linecap="round" stroke-dasharray=".1 13"/>
+  </g>
+  <g>
+    <use href="#sprig" transform="translate(29 126) rotate(-9)"/>
+    <use href="#sprig" transform="translate(192 146) rotate(14)"/>
+    <use href="#sprig" transform="translate(378 179) rotate(-2)"/>
+    <use href="#sprig" transform="translate(614 204) rotate(-10)"/>
+    <use href="#sprig" transform="translate(819 173) rotate(-18)"/>
+    <use href="#sprig" transform="translate(1172 128) scale(-1 1) rotate(-7)"/>
+    <use href="#sprig" transform="translate(262 162) rotate(158) scale(.72)"/>
+    <use href="#sprig" transform="translate(460 193) rotate(162) scale(.75)"/>
+    <use href="#sprig" transform="translate(830 191) rotate(18) scale(.75)"/>
+    <use href="#sprig" transform="translate(1004 157) rotate(24) scale(.73)"/>
+  </g>
+  <g>
+    <use href="#cascade" transform="translate(162 164) rotate(8) scale(.87)"/>
+    <use href="#cascade" transform="translate(363 194) rotate(-5) scale(.78)"/>
+    <use href="#cascade" transform="translate(597 213) scale(.9)"/>
+    <use href="#cascade" transform="translate(815 194) rotate(7) scale(.78)"/>
+    <use href="#cascade" transform="translate(1043 164) rotate(-9) scale(.91)"/>
+  </g>
+  <g>
+    <use href="#rosehead" transform="translate(86 122) rotate(-17) scale(1.05)"/>
+    <use href="#goldflower" transform="translate(145 160) scale(.75)"/>
+    <use href="#jasmine" transform="translate(187 122) rotate(16)"/>
+    <use href="#rosehead" transform="translate(247 142) rotate(22) scale(.85)"/>
+    <use href="#goldflower" transform="translate(311 168) scale(.9)"/>
+    <use href="#rosehead" transform="translate(376 175) rotate(-14) scale(.78)"/>
+    <use href="#jasmine" transform="translate(420 205) scale(.8)"/>
+    <use href="#goldflower" transform="translate(473 189) scale(.8)"/>
+    <use href="#rosehead" transform="translate(551 190) rotate(17) scale(1.02)"/>
+    <use href="#rosehead" transform="translate(621 210) rotate(-24) scale(.7)"/>
+    <use href="#jasmine" transform="translate(645 170) scale(.86)"/>
+    <use href="#goldflower" transform="translate(690 201) scale(.86)"/>
+    <use href="#rosehead" transform="translate(759 180) rotate(26) scale(.92)"/>
+    <use href="#jasmine" transform="translate(811 214) scale(.72)"/>
+    <use href="#goldflower" transform="translate(854 164) scale(.83)"/>
+    <use href="#rosehead" transform="translate(922 144) rotate(-15) scale(.87)"/>
+    <use href="#jasmine" transform="translate(986 133) rotate(-12)"/>
+    <use href="#goldflower" transform="translate(1031 163) scale(.83)"/>
+    <use href="#rosehead" transform="translate(1101 124) rotate(13)"/>
+    <use href="#jasmine" transform="translate(1152 147) scale(.64)"/>
+  </g>
+</svg>
